@@ -1,7 +1,7 @@
-id=template
-name=Template Module
+id=enable-dumpsys
+name=Enable Dumpsys
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=edjocute
+description=Modifies SELinux permissions to enable dumpsys command to work in some devices
 template=1400

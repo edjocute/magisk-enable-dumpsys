@@ -1,11 +1,8 @@
 # Magisk Module Template
-
-For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/module_repo.md)
-
 ### README.md
 
-This `README.md` can be shown in Magisk Manager. Place any information/changelog/notes you like.
+With MagiskSU, the dumpsys command fails in some devices due to insufficient SELinux permissions in enforcing mode. This affects apps which resets battery statsand also prevents aggressive doze in Greenify and Naptime from working correctly.
 
-**Please update `README.md` if you want to submit your module to the online repo!**
+This module patches SELinux to ensure dumpsys has sufficient privileges to run correctly. 
 
-You can edit your `README.md` within Github's online editor, it also has an preview button! Check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for markdown syntaxes, it's super easy!
+
