@@ -42,7 +42,7 @@ LATESTARTSERVICE=true
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "     Magisk Enable Dumpsys     "
   ui_print "*******************************"
 }
 
